@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F0E0E;
+}
+
+/* Header Topo */
+header {
+    height: 50%;
+    margin-top: 20px;
+}
+
+div#conteiner-2 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.icone{
+    width: 50px;
+    margin-left: 250px;
+}
+
+div.barran a {
+    color: aliceblue;
+    margin-left: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav li a {
+    color: #fffbfb;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+div nav #ul01 {
+    margin-left: 260px;
+}
+
+/* Main*/
+.container01 {
+    margin-top: 70px;
+}
+
+section#about-me {
+    color: #fffbfb;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+h1.eu {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.projetos {
+    color: #fffbfb;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.container02 {
+    margin-top: 30px;
+}
+
+.fotos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+
+.fotos-items {
+    width: 340px;
+    height: 280px;
+    box-shadow: 8px 8px 8px #0006;
+    flex-grow: .1;
+    transition: transform .5s linear;
+    opacity: 0.8;
+}
+
+.fotos-items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.fotos-container :hover {
+    transform: scale(1.1);
+}
+
+#assunto{
+    display: flex;
+    margin-top: 25px;
+    
+}
+
+#assunto p{
+    color: #fffbfb;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+p#back{
+    margin-left: 80px;
+}
+
+p#front{
+    margin-left: 330px;
+}
+
+p#banco{
+    margin-left: 332px;
+}
+
+hr {
+    width: 600px;
+    margin-left: 350px;
+}
+
+
+
+h1.procura {
+    text-align: center;
+    color: #fffbfb;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+
+h1.procura {
+    margin-top: 80px;
+}
+
+.button {
+    margin-left: 573px;
+    margin-top: 20px;
+    border: none;
+    color: #0F0E0E;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #0F0E0E;
+    color: #fffbfb;
+    border: solid 1px #fffbfb;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #fffbfb;
+    height: 60px;
+    font-size: 17px;
+}

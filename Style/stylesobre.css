@@ -1,0 +1,92 @@
+body {
+    background-color: #0F0E0E;
+}
+
+header {
+    height: 50%;
+    
+}
+
+div#conteiner-2 {
+    display: inline-flex;
+    align-items: center;
+}
+.icone{
+    width: 50px;
+    margin-left: 250px;
+}
+
+div.barran a {
+    color: aliceblue;
+    margin-left: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: normal;
+    text-decoration: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav li a {
+    color: #fffbfb;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+div nav #ul01 {
+    margin-left: 260px;
+}
+
+h1 {
+    color: #fffbfb;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    color: #fffbfb;
+}
+
+a{
+    color: #fffbfb;
+}
+
+p#descrição{
+    margin-left: 380px;
+    font-family: "Poppins", sans-serif;
+    width: 550px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+h2#soft{
+    text-align: center;
+    color: #fffbfb;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+p#skills{
+    margin-left: 600px;
+    font-family: "Poppins", sans-serif;
+}
+
+hr {
+    width: 600px;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #fffbfb;
+    height: 60px;
+}
